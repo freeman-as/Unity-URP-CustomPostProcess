@@ -9,7 +9,7 @@ namespace FRMN.PostProcess
         protected override string _renderTag => nameof(DiffusionRenderPass);
 
         #region Shader Property
-        // IDƒLƒƒƒbƒVƒ…
+        // IDã‚­ãƒ£ãƒƒã‚·ãƒ¥
         private static readonly int SourceTexId = Shader.PropertyToID("_SourceTex");
         private static readonly int TempBlurBuffer1 = Shader.PropertyToID("_TempBlurBuffer1");
         private static readonly int TempBlurBuffer2 = Shader.PropertyToID("_TempBlurBuffer2");

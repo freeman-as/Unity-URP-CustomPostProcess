@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Active: 1
   _shader: {fileID: 4800000, guid: 608d035a0cf6bbe428b5373f2dadcc6c, type: 3}
-  _renderPassEvent: 600
+  _renderPassEvent: 550
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -7,8 +7,8 @@ namespace FRMN.PostProcess
     public interface IVolumeComponent
     {
         /// <summary>
-        /// VolumeComponent‚ÌActiveó‘Ôæ“¾
-        /// À‘•æ‚ÅğŒw’è
+        /// VolumeComponentã®ActiveçŠ¶æ…‹å–å¾—
+        /// å®Ÿè£…å…ˆã§æ¡ä»¶æŒ‡å®š
         /// </summary>
         bool IsActive { get; }
     }
@@ -16,12 +16,12 @@ namespace FRMN.PostProcess
     /// <summary>
     /// 
     /// </summary>
-    /// <remarks>Œp³æ‚Å‘®«ƒ‰ƒxƒ‹w’è[Serializable, VolumeComponentMenuForRenderPipeline("FRMN/ProcessName", typeof(UniversalRenderPipeline))]</remarks>
+    /// <remarks>ç¶™æ‰¿å…ˆã§å±æ€§ãƒ©ãƒ™ãƒ«æŒ‡å®š[Serializable, VolumeComponentMenuForRenderPipeline("FRMN/ProcessName", typeof(UniversalRenderPipeline))]</remarks>
     public abstract class VolumeComponentBase : VolumeComponent , IPostProcessComponent
     {
         /// <summary>
-        /// VolumeComponent‚ÌActiveó‘Ôæ“¾
-        /// À‘•æ‚ÅğŒw’è
+        /// VolumeComponentã®ActiveçŠ¶æ…‹å–å¾—
+        /// å®Ÿè£…å…ˆã§æ¡ä»¶æŒ‡å®š
         /// </summary>
         public abstract bool IsActive();
 

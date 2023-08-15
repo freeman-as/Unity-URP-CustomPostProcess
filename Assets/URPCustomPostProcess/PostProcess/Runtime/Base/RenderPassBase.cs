@@ -50,9 +50,9 @@ namespace FRMN.PostProcess
             var volumeStack = VolumeManager.instance.stack;
             __volumeComponent = volumeStack.GetComponent<T>();
 
-            if (__volumeComponent == null
-                || !__volumeComponent.active
-                || __volumeComponent.IsActive)
+            if (_volumeComponent == null 
+                || !_volumeComponent.active 
+                || !_volumeComponent.IsActive)
             {
                 return;
             }
