@@ -1,0 +1,17 @@
+{
+    "author": "freeman",
+    "name": "frmn.postprocess",
+    "displayName": "FRMN PostProcess",
+    "version": "1.0.0",
+    "unity": "2021.3",
+    "description": "PostProcess.",
+    "keywords": [
+        "frmn",
+        "postprocess"
+    ],
+    "dependencies": {
+        "com.unity.render-pipelines.core": "12.1.10",
+        "com.unity.render-pipelines.universal": "12.1.10"
+    },
+    "relatedPackages": {}
+}
