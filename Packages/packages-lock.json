@@ -210,6 +210,15 @@
       },
       "url": "https://packages.unity.com"
     },
+    "frmn.postprocess": {
+      "version": "file:frmn.postprocess",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "12.1.10",
+        "com.unity.render-pipelines.universal": "12.1.10"
+      }
+    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,
